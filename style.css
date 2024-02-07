@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;   
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: tomato;
+}
+
+.app{
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 96px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.card-body{
+    background: white;
+    border: 2px solid black;
+    padding: 16px 16px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.card-body h1{
+    margin-bottom: 12px;
+    font-size: 36px;
+}
+
+.card-btn button{
+    color: black;
+    font-weight: 600;
+    border: 2px solid darkgoldenrod;
+    background-color: yellow;
+    padding: 6px 16px;
+    border-radius: 8px;
+    word-spacing: 16px;
+    margin: 0px 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}   
+
+button:hover{
+    background-color: yellowgreen;
+}
